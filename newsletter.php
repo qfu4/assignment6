@@ -12,7 +12,6 @@
 <body>
 
 
-
     <?php include 'include/top-bar.inc'; ?>
 
     <main class="container white-background push-to-bottom">
@@ -20,7 +19,7 @@
         <h2>SUBSCRIBE TO MY NEWSLETTER</h2>
 
         <div class="form-wrapper">
-            <form method="POST" action="#" class="form-grid">
+            <form method="post" action="insert.php" class="form-grid">
                 <label for="firstName">First Name:</label>
                 <input type="text" name="firstName" id="firstName" required placeholder="John">
 
