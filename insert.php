@@ -23,14 +23,19 @@
 <head>
 	<meta charset="utf-8">
 	<title>Database Insert</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-	<h1>Database Insert</h1>
 
+    <?php include 'include/top-bar.inc'; ?>
+
+	
+<div class="thank-page">
+	<h1>Thank you!</h1>
 <?php
 	if ($result) {
-		echo "Success! - the query seemed to work! (At least it didn't error-out.)";
+		echo "Sign up for the newsletter! You will not regret..)";
 ?>
 <?php
 	} else {
@@ -38,12 +43,14 @@
 	}
 ?>
 
-<div>
-	<a href="view.php">Checkout your handiwork</a>
+
+<div class="form-button">
+	<a class="form-a" href="view.php">Checkout your handiwork</a>
 </div>
 
-<div>
-	<a href=".">Or go back to the Index</a>
+<div class="form-button">
+	<a class="form-a"href="index.php">Or go back to the Index</a>
+</div>
 </div>
 
 </body>
