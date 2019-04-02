@@ -44,9 +44,7 @@
 ?>
 
 
-<div class="form-button">
-	<a class="form-a" href="view.php">Checkout your handiwork</a>
-</div>
+
 
 <div class="form-button">
 	<a class="form-a"href="index.php">Or go back to the Index</a>
