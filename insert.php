@@ -32,24 +32,24 @@
 
 	
 <div class="thank-page">
-	<h1>Thank you!</h1>
+	<h1>Thank you for signing up!</h1>
 <?php
 	if ($result) {
-		echo "Sign up for the newsletter! You will not regret..)";
+		echo "What's next ...";
 ?>
 <?php
 	} else {
-		die("Database query failed.");
+		die("Sorry... Something Wrong. Please Try Again Later.");
 	}
 ?>
 
 
 <div class="form-button">
-	<a class="form-a" href="view.php">Checkout your handiwork</a>
+	<a class="form-a">Contact us and start your first session today!</a>
 </div>
 
 <div class="form-button">
-	<a class="form-a"href="index.php">Or go back to the Index</a>
+	<a class="form-a">Invite friends to learn about GIODME</a>
 </div>
 </div>
 

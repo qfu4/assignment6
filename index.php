@@ -39,12 +39,12 @@
         </div>
 
         <div class="button">
-            <a href="services.php"><span class="letter-spacing">READ</span><br> MORE</a>
+            <a href="newsletter.php"><span class="letter-spacing">NEWSLETTER</span><br>SIGN UP</a>
         </div>
 
     </section>
 
-
+    <?php include 'include/footer.inc'; ?>
 
     <?php include 'include/scripts.inc'; ?>
 

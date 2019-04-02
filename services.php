@@ -95,11 +95,6 @@
         </footer>
     </main>
 
-
-
-
-
-
     <?php include 'include/scripts.inc'; ?>
 
 </body>
