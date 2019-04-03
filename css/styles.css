@@ -230,10 +230,6 @@ footer{
 .form-a{
     color:black;
 }
-.form-button:hover{
-    text-decoration: underline;
-    font-size:15px;
-}
 .form-button:active{
     transform: translateY(4px);
 }
