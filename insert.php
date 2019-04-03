@@ -7,7 +7,7 @@
 	$insertLastName = $_POST["lastName"];
 	$insertEmail = $_POST["email"];
 
-	// You really should escape all strings
+	// escape all strings
 	$insertFirstName = mysqli_real_escape_string($connection, $insertFirstName);
 	$insertLastName = mysqli_real_escape_string($connection, $insertLastName);
 	$insertEmail = mysqli_real_escape_string($connection, $insertEmail);
@@ -19,10 +19,10 @@
 ?>
 
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Database Insert</title>
+	<title>Newsletter | Giodme Personal Website</title>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
